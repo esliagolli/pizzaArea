@@ -6,7 +6,7 @@ var pizzaareaApp = angular.module('pizzaareaApp', ['ui.router']);
 
 pizzaareaApp.config(function ($stateProvider, $urlRouterProvider) {
 
-    $urlRouterProvider.otherwise('/home');
+    $urlRouterProvider.otherwise('/');
 
     $stateProvider
 
