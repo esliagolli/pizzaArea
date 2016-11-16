@@ -13,7 +13,7 @@ pizzaareaApp.config(function ($stateProvider, $urlRouterProvider) {
     // HOME STATES AND NESTED VIEWS ========================================
 
         .state('home', {
-            url: '/home',
+            url: '/',
             templateUrl: 'home.html',
             controller: 'pareaController'
         })
